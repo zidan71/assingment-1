@@ -175,7 +175,71 @@ text-align: left;
     display: flex;
     gap: 27px;
     justify-content: center;
-    
-    
-    
+}
+
+/* help */
+
+.handshake{
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    width: 1140px;
+    height: 310px;
+    margin: 50px 373px;
+}
+.handshake h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 60px;
+}
+.handshake p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+#feedback{
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: start;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin: 0px 200px;
+padding-left: 20px;
+width: 548px;
+height: 57px;
+}
+.submit{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 120px;
+height: 57px;
+position: relative;
+border: none;
+right: 190px;
+cursor: pointer;
 }
